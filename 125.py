@@ -1,4 +1,4 @@
-ez = asd1234
+ez = 'asd1234'
 ez == True
 num = 3
 while ez:
@@ -10,5 +10,5 @@ while ez:
 	else:
 		num = num - 1
 		print("输入错误，还有 " , num ,"三次机会")
-		if num >= 0:
+		if num == 0:
 			break
